@@ -1,0 +1,44 @@
+
+
+body, th, td, p, li, div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 1ex 10% 5ex 0;
+  color: #000000; background-color: #ffffff
+}
+
+table#menu {
+ position: fixed;
+ width: 10em;
+ left: 1em;
+ top: 5ex;
+}
+
+table#menu td{
+ text-align: center;
+ height: 3.2ex;
+ border-bottom: 1px dashed #000000;
+ border-right: 3px double #000000;
+ }
+
+div#main{
+  padding-left: 14em;
+}
+
+p#program{
+  line-height: 120%;
+}
+
+p, li {line-height: 140%;}
+
+table.program td {
+    vertical-align: top;
+}
+
+/* a:link    {color:#003399; font-weight: bold} */
+a:link    {color:#0033cc; font-weight: bold; text-decoration:none;} 
+a:visited {color:#0033cc; font-weight: bold; text-decoration:none;} 
+a:active  {color:#eeeeee; background-color: #0033cc}
+a:hover   {color:#ffffff; background-color: #0033cc}
